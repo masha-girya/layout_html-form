@@ -1,21 +1,16 @@
 /* styles go here */
-* {
-  margin: 0;
-}
-
-form {
-  margin: 10px;
+.field-group {
+  margin-top: 20px;
 }
 
 .form-field {
-  margin: 10px 0;
+  margin-bottom: 10px;
 }
 
-.field-group {
-  margin: 20px 0;
-  padding: 0 10px;
+.field-group:first-child {
+  margin-top: 0;
 }
 
-.field-group:nth-child(1) {
-  margin: 0;
+.form-field:last-child {
+  margin-bottom: 0;
 }
